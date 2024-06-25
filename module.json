@@ -1,40 +1,42 @@
 {
-  "id": "oracle-class",
-  "title": "Oracle Class",
-  "version": "1.0.0",
-  "compatibility": {
-    "minimum": "11",
-    "verified": "11"
-  },
-  "relationships": {
-    "systems": [
-      {
-        "id": "dnd5e",
-        "type": "system",
-        "compatibility": {}
-      }
+    "id": "oracle-class",
+    "title": "Oracle Class",
+    "version": "1.0.0",
+    "compatibility": {
+        "minimum": "11",
+        "verified": "11"
+    },
+    "relationships": {
+        "systems": [
+            {
+                "id": "dnd5e",
+                "type": "system",
+                "compatibility": {}
+            }
+        ]
+    },
+    "description": "Adds the homebrew Oracle class to D&amp;D5e",
+    "authors": [
+        {
+            "name": "Yaisoula",
+            "discord": "bazzleberry",
+            "flags": {}
+        }
+    ],
+    "manifest": "https://github.com/Yaisoula/OracleClass/releases/download/latest/module.json",
+    "download": "https://github.com/Yaisoula/OracleClass/releases/download/latest/oracleclass.zip",
+    "packs": [
+        {
+            "name": "oracle-class",
+            "label": "Oracle Class",
+            "path": "packs/oracle-class",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "dnd5e",
+            "flags": {}
+        }
     ]
-  },
-  "description": "Adds the homebrew Oracle class to D&amp;D5e",
-  "authors": [
-    {
-      "name": "Yaisoula",
-      "discord": "bazzleberry",
-      "flags": {}
-    }
-  ],
-  "packs": [
-    {
-      "name": "oracle-class",
-      "label": "Oracle Class",
-      "path": "packs/oracle-class",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
-    }
-  ]
 }
